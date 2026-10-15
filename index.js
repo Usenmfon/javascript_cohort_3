@@ -63,6 +63,7 @@ i++
 
 i = i + 1
 
-// students.forEach((student) => {
-//     console.log("Good morning", student);
-// })
+students.forEach((student) => {
+    console.log("Good morning", student);
+})
+
