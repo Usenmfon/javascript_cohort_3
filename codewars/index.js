@@ -1,0 +1,5 @@
+function noOdds( values ){
+  return values.filter((x) => x % 2 == 0)
+}
+
+console.log(noOdds([0,1]))
