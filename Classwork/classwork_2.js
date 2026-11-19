@@ -42,3 +42,10 @@ students = [
         image_url: 'https://res.cloudinary.com/unlimitedreactive/image/upload/v1764850839/uploads/thumbnail/2Face-1024x576-1.jpg'
     },
 ]
+
+
+biology = students.filter((student) => student.department === 'Biology');
+chemistry = students.filter((student) => student.department === 'Chemistry');
+
+// console.log(biology)
+console.log(chemistry)
